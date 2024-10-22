@@ -83,5 +83,29 @@ body{
     height: 150px;
     background-color: white;
     bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   
+    .navbar-brand{
+        display: flex;
+        flex-direction: column;
+        height: 120px;
+        width: 80px;
+        justify-content: space-around;
+    }
+
+    a{
+        font-family: "Agbalumo", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+        color: rgb(106, 0, 0);
+    }
+
+    .icons{
+        width: 20vw;
+        display: flex;
+        justify-content: space-around;
+    }
 }
